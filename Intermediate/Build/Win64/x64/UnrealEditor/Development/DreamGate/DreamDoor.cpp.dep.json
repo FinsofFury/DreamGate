@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\gamejam\\dreamgate\\source\\dreamgate\\dreamdoor.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\gamejam\\dreamgate\\intermediate\\build\\win64\\x64\\dreamgateeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderunreal5_3.h.pch",
+        "Includes": [
+            "d:\\gamejam\\dreamgate\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\dreamgate\\definitions.dreamgate.h",
+            "d:\\gamejam\\dreamgate\\source\\dreamgate\\dreamdoor.h",
+            "d:\\gamejam\\dreamgate\\intermediate\\build\\win64\\unrealeditor\\inc\\dreamgate\\uht\\dreamdoor.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

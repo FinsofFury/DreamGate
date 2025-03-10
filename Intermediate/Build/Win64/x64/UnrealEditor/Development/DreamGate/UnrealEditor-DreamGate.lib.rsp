@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-DreamGate.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\GameJam\DreamGate\Intermediate\Build\Win64\x64\DreamGateEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderUnreal5_3.h.obj"
+"D:\GameJam\DreamGate\Intermediate\Build\Win64\x64\UnrealEditor\Development\DreamGate\DreamDoor.gen.cpp.obj"
+"D:\GameJam\DreamGate\Intermediate\Build\Win64\x64\UnrealEditor\Development\DreamGate\DreamGate.init.gen.cpp.obj"
+"D:\GameJam\DreamGate\Intermediate\Build\Win64\x64\UnrealEditor\Development\DreamGate\DreamDoor.cpp.obj"
+"D:\GameJam\DreamGate\Intermediate\Build\Win64\x64\UnrealEditor\Development\DreamGate\DreamGate.cpp.obj"
+"D:\GameJam\DreamGate\Intermediate\Build\Win64\x64\UnrealEditor\Development\DreamGate\PerModuleInline.gen.cpp.obj"
+"D:\GameJam\DreamGate\Intermediate\Build\Win64\x64\UnrealEditor\Development\DreamGate\Default.rc2.res"
+/OUT:"D:\GameJam\DreamGate\Intermediate\Build\Win64\x64\UnrealEditor\Development\DreamGate\UnrealEditor-DreamGate.lib"
