@@ -13,6 +13,7 @@ ADreamDoor::ADreamDoor()
 
 	// Create and set up the door mesh
 	DoorMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("DoorMesh"));
+
 	RootComponent = DoorMesh;
 
 	// Set a default mesh assign a real mesh in Unreal
@@ -21,6 +22,7 @@ ADreamDoor::ADreamDoor()
 	{
 		DoorMesh->SetStaticMesh(DoorMeshAsset.Object);
 	}
+
 
 	DoorMesh->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
 	DoorMesh->SetCollisionObjectType(ECC_WorldDynamic);
