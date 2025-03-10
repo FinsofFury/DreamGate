@@ -22,5 +22,30 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+	UFUNCTION()
+	void MoveDoor();
 
+	UFUNCTION()
+	void OnOverlapBegin(UPrimitiveComponent* OverlappedComponent,
+		AActor* OtherActor,
+		UPrimitiveComponent* OtherComp,
+		int32 OtherBodyIndex,
+		bool bFromSweep,
+		const FHitResult& SweepResult);
+
+private:
+	UPROPERTY(VisibleAnywhere, Category = "Components")
+	UStaticMeshComponent* DoorMesh;
+
+	UPROPERTY(VisibleAnywhere, Category = "Components")
+	class UBoxComponent* TriggerBox;
+
+	UPROPERTY(EditAnywhere, Category = "Movement")
+	FVector MoveOffset = FVector(300.f, 0.f, 0.f);  // Move forward by 300 units
+
+	UPROPERTY(EditAnywhere, Category = "Movement")
+	float MoveSpeed = 1.5f;  // Movement duration
+
+	FVector StartLocation;
+	FVector TargetLocation;
 };
