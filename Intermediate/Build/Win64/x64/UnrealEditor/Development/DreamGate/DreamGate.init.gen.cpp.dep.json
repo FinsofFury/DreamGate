@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\gamejam\\dreamgate\\intermediate\\build\\win64\\unrealeditor\\inc\\dreamgate\\uht\\dreamgate.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\gamejam\\dreamgate\\intermediate\\build\\win64\\x64\\dreamgateeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderunreal5_3.h.pch",
+        "Includes": [
+            "d:\\gamejam\\dreamgate\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\dreamgate\\definitions.dreamgate.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

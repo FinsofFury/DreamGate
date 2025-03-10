@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\GameJam\\DreamGate\\Source\\DreamGate\\DreamGate.Build.cs",
+		"D:\\GameJam\\DreamGate\\Source\\DreamGate.Target.cs",
+		"D:\\GameJam\\DreamGate\\Source\\DreamGateEditor.Target.cs"
+	],
+	"EngineVersion": "5.5.3"
+}
